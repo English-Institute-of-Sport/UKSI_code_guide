@@ -89,7 +89,7 @@ markdown_extensions:
 
 # Set Footer info
 extra:
-  generator: false
+  generator: true
 
 copyright: CONFIDENTIAL - Copyright &copy; 2025 UKSI
 
@@ -97,18 +97,18 @@ plugins:
   # necessary for search to work
   - search
 
-#   # Add time stamp to the bottom of each page show when it was last updated
-#   - git-revision-date-localized:
-#       type: timeago
-#       fallback_to_build_date: true
-#       enable_creation_date: true
-#       exclude:
-#           - index.md
-#       enabled: true
-#       strict: true
+  # Add time stamp to the bottom of each page show when it was last updated
+  - git-revision-date-localized:
+      type: timeago
+      fallback_to_build_date: true
+      enable_creation_date: true
+      exclude:
+          - index.md
+      enabled: true
+      strict: true
   
-  # # Allows images to full screens
-  # - glightbox
+  # Allows images to full screens
+  - glightbox
 
-#   # page configuration tool
-#   - awesome-pages
+  # page configuration tool
+  - awesome-pages
