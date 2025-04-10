@@ -1,5 +1,15 @@
+# Project information
 site_name: UKSI Code Guide
+site_url: https://english-institute-of-sport.github.io/UKSI_code_guide/
 
+# Repository
+repo_name: English-Institute-of-Sport/UKSI_code_guide
+repo_url: https://github.com/English-Institute-of-Sport/UKSI_code_guide
+
+# Copyright
+copyright: Copyright &copy; 2025 UKSI
+
+# Configuration
 theme:
   name: material
 
@@ -87,12 +97,24 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-# Set Footer info
+# Additional configuration
 extra:
+# Set Footer info
   generator: true
 
-copyright: CONFIDENTIAL - Copyright &copy; 2025 UKSI
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/English-Institute-of-Sport/
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/uksportsinst
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/uksportsinst
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/uksportsinst
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@UKSportsInst/featured
 
+# Plugins
 plugins:
   # necessary for search to work
   - search
