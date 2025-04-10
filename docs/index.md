@@ -1,6 +1,18 @@
-# Welcome to MkDocs
+# Welcome to the UKSI Code Guide!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+These pages will be gradually updated to include best practice guidance for those working in the UK Sport Institute and wider high performance system. 
+
+We primarily support python. 
+
+## Pages coming soon: 
+* IDE set up 
+* Starting a new project
+* Coding guidelines
+* Version control
+* Collaboration 
+* Style guide
+
+For full documentation on mkdocs visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
