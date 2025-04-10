@@ -1,0 +1,6 @@
+site_name: UKSI Code Guide
+
+theme:
+  name: material
+
+  logo: assets/UKSI_CMYK.png
