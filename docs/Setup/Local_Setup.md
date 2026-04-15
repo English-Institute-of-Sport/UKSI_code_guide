@@ -7,12 +7,12 @@ While you may lament the use of a variable viewer initially, getting the hang of
 
 ## We recommend **uv** as a project management tool  
 It is very easy to use and install!  
-Install on Windows:  
+Install on Windows:
 
-1. Search "powershell" in your windows search bar
-2. Copy this into your powershell terminal: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-3. Close powershell. That's it installed! 
-More [info on installation](https://docs.astral.sh/uv/getting-started/installation/) here.
+1. Search "powershell" in your windows search bar  
+2. Copy this into your powershell terminal: powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"  
+3. Close powershell. That's it installed!  
+More [info on installation](https://docs.astral.sh/uv/getting-started/installation/) here.  
 
 >## uv troubleshooting
 >If command not found after install, restart terminal.
