@@ -5,13 +5,12 @@ These pages will be continually updated to include best practice guidance for th
 # Best Practice 
 There are many different ways and places to code but variation risks losing understanding. This guide exists to try and ensure the legacy of any code written for the future benefit of the sport it was written to support and anyone who works on it. 
 
-Below are the recommended systems for UKSI users, listed **in bold**. We will update these with additional information and pros/cons over the coming months.
+Below are the recommended systems for UKSI users. More information can be found in the [Local Setup Page](https://github.com/English-Institute-of-Sport/UKSI_code_guide/blob/main/docs/Setup/Local%20Setup.md). We will update these with additional information and pros/cons over the coming months.
 
 We primarily support:
-**Language: python***
-**IDE: VS Code **
-**Project management tool: uv**
-
+- Language: python
+- IDE: VS Code 
+- Project management tool: uv
     
 
 ## Daily Workflow
