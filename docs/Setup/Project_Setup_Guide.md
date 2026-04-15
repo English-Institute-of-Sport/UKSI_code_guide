@@ -2,6 +2,7 @@
 The setup below is inline with the Python Project Template (in progress) on the UKSI GitHub.
 
 For new projects:  
+
 1. Setup a Github repository. Use a [template](https://github.com/English-Institute-of-Sport/Python_Project_Template) if starting a new project, otherwise, create an empty repository.  
 2. Setup your project environment using uv.  
     - ensure or navigate to the relevant root (filepath)  
