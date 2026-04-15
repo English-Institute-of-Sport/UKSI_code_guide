@@ -7,11 +7,12 @@ There are many different ways and places to code but variation risks losing unde
 
 Below are the recommended systems for UKSI users, listed **in bold**. We will update these with additional information and pros/cons over the coming months.
 
-!!! We primarily support:
+!!! info
 
-    **Language: python**
-    **IDE: VS Code **
-    **Project management tool: uv**
+    We primarily support:
+    Language: python
+    IDE: VS Code 
+    Project management tool: uv
 
     
 
