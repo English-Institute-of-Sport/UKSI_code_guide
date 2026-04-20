@@ -24,62 +24,63 @@ There are a few things to consider when using 3rd party libraries (funcitons, mo
 
 There are plenty of widely adopted, well documented and actively maintained useful libraries such as: 
 
-numpy, pandas → data handling  
-matplotlib, seaborn → visualisation  
-scipy, statsmodels → statistics  
-scikit-learn → machine learning  
+- numpy, pandas → data handling  
+- matplotlib, seaborn → visualisation  
+- scipy, statsmodels → statistics  
+- scikit-learn → machine learning  
 
 But if you're using a new one you haven't heard of or used, before importing, ask yourself (or google) these questions:
 
 1. Is it fit for purpose?
 
-- Does it solve the specific scientific or applied problem we have (e.g. signal processing, modelling, visualisation)?
-- Does it integrate easily with the tools and workflows we already use (e.g. Python, NumPy, Pandas, biomechanics/physiology pipelines)?
-- Will using it limit future methodological or software choices (e.g. upgrading Python versions, changing analysis workflows, collaborating with other groups)?
+    - Does it solve the specific scientific or applied problem we have (e.g. signal processing, modelling, visualisation)?
+    - Does it integrate easily with the tools and workflows we already use (e.g. Python, NumPy, Pandas, biomechanics/physiology pipelines)?
+    - Will using it limit future methodological or software choices (e.g. upgrading Python versions, changing analysis workflows, collaborating with other groups)?
 > In short: will this tool help us answer our research or performance questions now, without causing problems later?
+
 2. Maturity/stability of the library
 
-- Is this a well‑established library that has been used in multiple studies, labs, or applied sport settings?
-- Or is it a new or experimental tool that may still change substantially?
+    - Is this a well‑established library that has been used in multiple studies, labs, or applied sport settings?
+    - Or is it a new or experimental tool that may still change substantially?
 
 > Mature libraries are generally more stable, better tested, and safer for longitudinal projects or decision‑making workflows.
 
 3. Size and quality of the user and developer community
 
-- Is there an active user community who ask and answer questions (e.g. GitHub issues, forums, Stack Overflow)?
-- How often is the library:
-    Updated or improved?
-    Fixed when bugs are identified?
-- Is it maintained by:
-    A team or organisation, or
-    A single individual (which may pose long‑term risks)?
-- Is the documentation clear and scientifically meaningful, with examples relevant to real data?
+    - Is there an active user community who ask and answer questions (e.g. GitHub issues, forums, Stack Overflow)?
+    - How often is the library:
+        Updated or improved?
+        Fixed when bugs are identified?
+    - Is it maintained by:
+        A team or organisation, or
+        A single individual (which may pose long‑term risks)?
+    - Is the documentation clear and scientifically meaningful, with examples relevant to real data?
 
 > Strong communities often mean faster support, clearer guidance, and greater confidence in results.
 
 4. Licensing and usage constraints
 
-- Is the library legally usable for:
-    Applied sport environments?
-    Commercial or consultancy work?
-    Research with potential publication or IP considerations?
-- Are there any restrictions on:
-    Redistribution
-    Commercial use
-    Integration into larger tools?
+    - Is the library legally usable for:
+        Applied sport environments?
+        Commercial or consultancy work?
+        Research with potential publication or IP considerations?
+    - Are there any restrictions on:
+        Redistribution
+        Commercial use
+        Integration into larger tools?
 
 > Some libraries are fully open source, while others are free for research purposes, it is your responsibility to know.
 
 5. Security
 
-  - Has there been any history of security issues, how quickly were they fixed?
+      - Has there been any history of security issues, how quickly were they fixed?
 
 6. Performance
 
-- Is the library fast and efficient enough for:
-    Large datasets (e.g. time‑series, high‑frequency sensor data)?
-    Repeated analyses or batch processing?
-- Does it require excessive memory or computational resources?
-- Is it practical for day‑to‑day applied use, not just small example datasets?
+    - Is the library fast and efficient enough for:
+        Large datasets (e.g. time‑series, high‑frequency sensor data)?
+        Repeated analyses or batch processing?
+    - Does it require excessive memory or computational resources?
+    - Is it practical for day‑to‑day applied use, not just small example datasets?
 
 > Performance matters more when working with highly complex or large volumns of data, or real‑time or near‑real‑time analysis. Standard number-crunching processes should never take minutes. 
