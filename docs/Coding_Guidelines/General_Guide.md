@@ -23,10 +23,11 @@ Add in a couple of sentence description either via a Readme or at the top of you
 There are a few things to consider when using 3rd party libraries (funcitons, modules, whichever word you use!). Don't inlcude libraries just for the sake of it, and make sure you identify your version via virtual environments and uv so that others' will be able to run your code just as it is (i.e. if pandas gets an update, it might behave differently). 
 
 There are plenty of widely adopted, well documented and actively maintained useful libraries such as: 
-numpy, pandas → data handling
-matplotlib, seaborn → visualisation
-scipy, statsmodels → statistics
-scikit-learn → machine learning
+
+numpy, pandas → data handling  
+matplotlib, seaborn → visualisation  
+scipy, statsmodels → statistics  
+scikit-learn → machine learning  
 
 But if you're using a new one you haven't heard of or used, before importing, ask yourself (or google) these questions:
 
@@ -40,6 +41,7 @@ But if you're using a new one you haven't heard of or used, before importing, as
 
 - Is this a well‑established library that has been used in multiple studies, labs, or applied sport settings?
 - Or is it a new or experimental tool that may still change substantially?
+
 > Mature libraries are generally more stable, better tested, and safer for longitudinal projects or decision‑making workflows.
 
 3. Size and quality of the user and developer community
@@ -54,6 +56,7 @@ But if you're using a new one you haven't heard of or used, before importing, as
 - Is the documentation clear and scientifically meaningful, with examples relevant to real data?
 
 > Strong communities often mean faster support, clearer guidance, and greater confidence in results.
+
 4. Licensing and usage constraints
 
 - Is the library legally usable for:
@@ -64,10 +67,13 @@ But if you're using a new one you haven't heard of or used, before importing, as
     Redistribution
     Commercial use
     Integration into larger tools?
-> Some libraries are fully open source, while others are free for research purposes, it is your responsibility to know. 
+
+> Some libraries are fully open source, while others are free for research purposes, it is your responsibility to know.
+
 5. Security
 
   - Has there been any history of security issues, how quickly were they fixed?
+
 6. Performance
 
 - Is the library fast and efficient enough for:
@@ -75,4 +81,5 @@ But if you're using a new one you haven't heard of or used, before importing, as
     Repeated analyses or batch processing?
 - Does it require excessive memory or computational resources?
 - Is it practical for day‑to‑day applied use, not just small example datasets?
+
 > Performance matters more when working with highly complex or large volumns of data, or real‑time or near‑real‑time analysis. Standard number-crunching processes should never take minutes. 
