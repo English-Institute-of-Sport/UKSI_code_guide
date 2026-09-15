@@ -13,6 +13,20 @@ We primarily support:
 - Project management tool: uv
     
 
+## Start here (new users)
+If you're just getting going, work through these in order — each links to a page with the detail:
+
+1. **Set up your GitHub account** and [enable 2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa), then ask to be added to the EIS GitHub Organisation.
+2. **Install your tools:** [VS Code, GitHub Desktop and uv](Setup/Local_Setup.md).
+3. **Create your first project** from the [Project Setup Guide](Setup/Project_Setup_Guide.md).
+4. **Learn the GitHub workflow** in [Version Control](Coding_Guidelines/Version_Control.md) — how to commit and push your work (you can do it all by clicking buttons, no command line needed). Branches, pull requests and reviews are there too for when you start working with others.
+5. **Follow the daily workflow** below every time you sit down to code.
+
+Unsure what a word like *repo*, *branch* or *pull request* means? See the [Glossary](Setup/Glossary.md).
+
+## Why GitHub, for every project
+Even a project only you will ever touch belongs in a GitHub **repository**. It gives you a cloud backup, a full history to roll back to, and one clear place to find the latest version. **Please don't share code by email or shared drives** — put it in a repo. More on this in [Version Control](Coding_Guidelines/Version_Control.md).
+
 ## Daily Workflow
 1. pull latest
 2. uv sync
@@ -35,6 +49,6 @@ Copilot is the only AI currently approved by UKSI. The below are general princip
 
 #### For further info on any of the above, get in touch with someone from the data team or come along to the coding office hours every Thursday morning at 10am.
 
-## Pages coming soon: 
-* Style guide
+## Office Hours
+Stuck on Git, an error, or anything else? Come along to the **coding office hours every Thursday morning at 10am**, or get in touch with someone from the data team.
 

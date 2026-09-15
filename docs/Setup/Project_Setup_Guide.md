@@ -1,5 +1,5 @@
 ## Project Setup Guide
-The setup below is inline with the Python Project Template (in progress) on the UKSI GitHub.
+The setup below is in line with the UKSI Python Project Template on the UKSI GitHub, which comes ready with `pyproject.toml`, `uv.lock`, a `.gitignore` and a starter `README.md`.
 
 For new projects:  
 
@@ -21,4 +21,69 @@ For new projects:
     - `pyproject.toml` file.  
     - `uv.lock` file.  
 5. Before you jump straight into the coding, remember to follow all the advice on these webpages!   
+
+## Starter templates
+If you started from the [Python Project Template](https://github.com/English-Institute-of-Sport/Python_Project_Template) you'll already have these. If not, copy them into your project.
+
+### `.gitignore`
+Keeps data, secrets and environment files out of Git. A good starting point for Python:
+
+```text
+# Virtual environments
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+
+# Data (don't commit datasets)
+data/
+*.csv
+*.parquet
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+.vscode/
+```
+
+### `README.md`
+Tells the next person what the project is and how to run it:
+
+```markdown
+# Project name
+
+One or two sentences on what this project does and who it's for.
+
+## Getting started
+1. Clone this repo.
+2. Run `uv sync` to install dependencies.
+3. Run the main script with `uv run <script>.py`.
+
+## Contributing
+- Never commit directly to `main` — work on a branch and open a pull request.
+- Commit often with clear messages.
+- Request a review before merging.
+
+## Contact
+Who to ask for help with this project.
+```
+
+### `pyproject.toml`
+Created for you by `uv init`. It records your project's name, Python version and dependencies — you rarely edit it by hand (use `uv add`):
+
+```toml
+[project]
+name = "my-project"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+```
+
 

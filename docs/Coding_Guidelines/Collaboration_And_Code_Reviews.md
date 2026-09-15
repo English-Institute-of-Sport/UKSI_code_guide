@@ -99,6 +99,22 @@ Both Deepnote and Github provide you with tools to be able to perform/receive a 
 > [!NOTE]  
 > In GitHub, the best way to conduct code reviews is via Pull Requests. See video example explainers on [Pull Requests](https://www.youtube.com/watch?v=3Q1MZjAVIiE) and [Reviewing](https://www.youtube.com/watch?v=GbjI2x0dMK0) on GitHub (many others will be available!).
 
+### Reviewer checklist
+Not sure where to start when reviewing? Work down this list:
+
+- [ ] **Functionality** — does it calculate what it claims, using correct methods?
+- [ ] **Structure** — is it logically organised (clean → process → output) and reusable?
+- [ ] **Readability** — meaningful names, clear comments, no needless complexity?
+- [ ] **Analysis** — checked against known values and sensible ranges, handles messy data?
+- [ ] **Risk & impact** — any hidden assumptions or ways this could mislead a decision?
+- [ ] **Standards** — does it follow the [Style Guide](Style_Guide.md), and has it been linted?
+
+When leaving comments, make each one **actionable** and label it clearly:
+
+> **Question:** why is the filter cut-off set to 10 Hz here?
+> **Suggestion:** consider renaming `pp1` to `peak_power`.
+> **Required:** this drops the last row of every session — needs fixing before merge.
+
 ## Collaboration
 When it comes to simple/one-off data exploration or analysis projects, we suggest setting up a real-time collaborative environment via Deepnote by simply adding your peers to the relevant project (up to 3, not including yourself). With that said, bear in mind that you can [create a Team space in Deepnote](https://docs.deepnote.com/collaboration/teams) for your specific project(s) or team(s).
 
@@ -115,3 +131,10 @@ When it comes to **legacy, open source, or collaborative projects**, we suggeste
 7. If you plan on making more contributions, make sure your local project (main branch) is in **sync** with the original repo, before creating another branch.
 
 > For a full PR flow walkthrough, see [GitHub flow](https://docs.github.com/en/get-started/quickstart/github-flow).
+
+!!! tip "🎯 Manage your projects on GitHub too"
+    GitHub isn't just for storing code. You can plan and track a team's work in the same place:
+
+    - Use a [project board](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) to organise tasks.
+    - Raise [issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) to log bugs and suggestions.
+    - Turn on a [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) to house project documentation.
